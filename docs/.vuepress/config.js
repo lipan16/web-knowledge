@@ -1,5 +1,5 @@
-import {searchPlugin} from '@vuepress/plugin-search'
 import {defineUserConfig, defaultTheme, viteBundler} from 'vuepress'
+import {searchPlugin} from '@vuepress/plugin-search'
 
 export default defineUserConfig({
     lang: 'zh-CN',
@@ -7,7 +7,7 @@ export default defineUserConfig({
     description: 'web前端知识,js,vue,react,面试题',
     base: '/web-knowledge/',
     head: [
-        ['link', {rel: 'icon', href: 'https://v2.vuepress.vuejs.org/images/icons/apple-touch-icon.png'}],
+        ['link', {rel: 'icon', href: 'http://8.133.162.30/favicon.svg'}],
         ['meta', {name: 'keywords', content: 'web前端知识,js,vue,react,面试题'}]
     ],
     markdown: {
