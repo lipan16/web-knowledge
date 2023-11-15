@@ -5,7 +5,7 @@ export default defineUserConfig({
     lang: 'zh-CN',
     title: 'web前端知识',
     description: 'web前端知识,js,vue,react,面试题',
-    base: '/knowledge/',
+    base: '/web-knowledge/',
     head: [
         ['link', {rel: 'icon', href: 'https://v2.vuepress.vuejs.org/images/icons/apple-touch-icon.png'}],
         ['meta', {name: 'keywords', content: 'web前端知识,js,vue,react,面试题'}]
