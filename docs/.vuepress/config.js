@@ -24,8 +24,8 @@ export default defineUserConfig({
         editLinkText: '帮助我们改善此页面',
         sidebar: [
             {
-                text: 'Vue系列  ( 已完结..)',
-                collapsable: false,
+                text: 'Vue系列',
+                collapsable: true,
                 children: [
                     {link: '/vue/vue', text: '说说你对vue的理解?'},
                     {link: '/vue/spa', text: '说说你对SPA（单页应用）的理解?'},
@@ -62,8 +62,8 @@ export default defineUserConfig({
                 ]
             },
             {
-                text: 'Vue3系列  ( 已完结..)',
-                collapsable: false,
+                text: 'Vue3系列',
+                collapsable: true,
                 children: [
                     {link: '/vue3/goal', text: 'Vue3.0的设计目标是什么？做了哪些优化?'},
                     {link: '/vue3/performance', text: 'Vue3.0 性能提升主要是通过哪几方面体现的？'},
@@ -74,8 +74,8 @@ export default defineUserConfig({
                 ]
             },
             {
-                text: 'ES6系列  ( 已完结..)',
-                collapsable: false,
+                text: 'ES6系列',
+                collapsable: true,
                 children: [
                     {link: '/es6/var_let_const', text: '说说var、let、const之间的区别'},
                     {link: '/es6/array', text: 'ES6中数组新增了哪些扩展?'},
@@ -89,48 +89,48 @@ export default defineUserConfig({
                     {link: '/es6/decorator', text: '你是怎么理解ES6中 Decorator 的？使用场景？'}
                 ]
             }, {
-                text: 'JavaScript系列  ( 已完结..)',
-                collapsable: false,
+                text: 'JavaScript系列',
+                collapsable: true,
                 children: [
-                    {link: '/JavaScript/data_type', text: '说说JavaScript中的数据类型？存储上的差别？'},
-                    {link: '/JavaScript/array_api', text: '数组的常用方法有哪些？'},
-                    {link: '/JavaScript/string_api', text: 'JavaScript字符串的常用方法有哪些？'},
-                    {link: '/JavaScript/type_conversion', text: '谈谈 JavaScript 中的类型转换机制'},
-                    {link: '/JavaScript/equal', text: '== 和 ===区别，分别在什么情况使用'},
-                    {link: '/JavaScript/copy', text: '深拷贝浅拷贝的区别？如何实现一个深拷贝？'},
-                    {link: '/JavaScript/closure', text: '说说你对闭包的理解？闭包使用场景'},
-                    {link: '/JavaScript/scope', text: '说说你对作用域链的理解'},
-                    {link: '/JavaScript/prototype', text: 'JavaScript原型，原型链 ? 有什么特点？'},
-                    {link: '/JavaScript/inherit', text: 'Javascript如何实现继承？'},
-                    {link: '/JavaScript/this', text: '谈谈this对象的理解'},
-                    {link: '/JavaScript/context_stack', text: 'JavaScript中执行上下文和执行栈是什么？'},
-                    {link: '/JavaScript/event_Model', text: '说说JavaScript中的事件模型'},
-                    {link: '/JavaScript/typeof_instanceof', text: 'typeof 与 instanceof 区别'},
-                    {link: '/JavaScript/event_agent', text: '解释下什么是事件代理？应用场景？'},
-                    {link: '/JavaScript/new', text: '说说new操作符具体干了什么？'},
-                    {link: '/JavaScript/ajax', text: 'ajax原理是什么？如何实现？'},
-                    {link: '/JavaScript/bind_call_apply', text: 'bind、call、apply 区别？如何实现一个bind?'},
-                    {link: '/JavaScript/regexp', text: '说说你对正则表达式的理解？应用场景？'},
-                    {link: '/JavaScript/event_loop', text: '说说你对事件循环的理解'},
-                    {link: '/JavaScript/Dom', text: 'DOM常见的操作有哪些？'},
-                    {link: '/JavaScript/BOM', text: '说说你对BOM的理解，常见的BOM对象你了解哪些？'},
-                    {link: '/JavaScript/tail_recursion', text: '举例说明你对尾递归的理解，有哪些应用场景'},
-                    {link: '/JavaScript/memory_leak', text: '说说 JavaScript 中内存泄漏的几种情况？'},
-                    {link: '/JavaScript/cache', text: 'Javascript本地存储的方式有哪些？区别及应用场景？'},
-                    {link: '/JavaScript/functional_programming', text: '说说你对函数式编程的理解？优缺点？'},
-                    {link: '/JavaScript/function_cache', text: 'Javascript中如何实现函数缓存？函数缓存有哪些应用场景？'},
-                    {link: '/JavaScript/loss_accuracy', text: '说说 Javascript 数字精度丢失的问题，如何解决？'},
-                    {link: '/JavaScript/debounce_throttle', text: '什么是防抖和节流？有什么区别？如何实现？'},
-                    {link: '/JavaScript/visible', text: '如何判断一个元素是否在可视区域中？'},
-                    {link: '/JavaScript/continue_to_upload', text: '大文件上传如何做断点续传？'},
-                    {link: '/JavaScript/pull_up_loading_pull_down_refresh', text: '如何实现上拉加载，下拉刷新？'},
-                    {link: '/JavaScript/single_sign', text: '什么是单点登录？如何实现？'},
-                    {link: '/JavaScript/security', text: 'web常见的攻击方式有哪些？如何防御？'}
+                    {link: '/javaScript/data_type', text: '说说JavaScript中的数据类型？存储上的差别？'},
+                    {link: '/javaScript/array_api', text: '数组的常用方法有哪些？'},
+                    {link: '/javaScript/string_api', text: 'JavaScript字符串的常用方法有哪些？'},
+                    {link: '/javaScript/type_conversion', text: '谈谈 JavaScript 中的类型转换机制'},
+                    {link: '/javaScript/equal', text: '== 和 ===区别，分别在什么情况使用'},
+                    {link: '/javaScript/copy', text: '深拷贝浅拷贝的区别？如何实现一个深拷贝？'},
+                    {link: '/javaScript/closure', text: '说说你对闭包的理解？闭包使用场景'},
+                    {link: '/javaScript/scope', text: '说说你对作用域链的理解'},
+                    {link: '/javaScript/prototype', text: 'JavaScript原型，原型链 ? 有什么特点？'},
+                    {link: '/javaScript/inherit', text: 'Javascript如何实现继承？'},
+                    {link: '/javaScript/this', text: '谈谈this对象的理解'},
+                    {link: '/javaScript/context_stack', text: 'JavaScript中执行上下文和执行栈是什么？'},
+                    {link: '/javaScript/event_Model', text: '说说JavaScript中的事件模型'},
+                    {link: '/javaScript/typeof_instanceof', text: 'typeof 与 instanceof 区别'},
+                    {link: '/javaScript/event_agent', text: '解释下什么是事件代理？应用场景？'},
+                    {link: '/javaScript/new', text: '说说new操作符具体干了什么？'},
+                    {link: '/javaScript/ajax', text: 'ajax原理是什么？如何实现？'},
+                    {link: '/javaScript/bind_call_apply', text: 'bind、call、apply 区别？如何实现一个bind?'},
+                    {link: '/javaScript/regexp', text: '说说你对正则表达式的理解？应用场景？'},
+                    {link: '/javaScript/event_loop', text: '说说你对事件循环的理解'},
+                    {link: '/javaScript/Dom', text: 'DOM常见的操作有哪些？'},
+                    {link: '/javaScript/BOM', text: '说说你对BOM的理解，常见的BOM对象你了解哪些？'},
+                    {link: '/javaScript/tail_recursion', text: '举例说明你对尾递归的理解，有哪些应用场景'},
+                    {link: '/javaScript/memory_leak', text: '说说 JavaScript 中内存泄漏的几种情况？'},
+                    {link: '/javaScript/cache', text: 'Javascript本地存储的方式有哪些？区别及应用场景？'},
+                    {link: '/javaScript/functional_programming', text: '说说你对函数式编程的理解？优缺点？'},
+                    {link: '/javaScript/function_cache', text: 'Javascript中如何实现函数缓存？函数缓存有哪些应用场景？'},
+                    {link: '/javaScript/loss_accuracy', text: '说说 Javascript 数字精度丢失的问题，如何解决？'},
+                    {link: '/javaScript/debounce_throttle', text: '什么是防抖和节流？有什么区别？如何实现？'},
+                    {link: '/javaScript/visible', text: '如何判断一个元素是否在可视区域中？'},
+                    {link: '/javaScript/continue_to_upload', text: '大文件上传如何做断点续传？'},
+                    {link: '/javaScript/pull_up_loading_pull_down_refresh', text: '如何实现上拉加载，下拉刷新？'},
+                    {link: '/javaScript/single_sign', text: '什么是单点登录？如何实现？'},
+                    {link: '/javaScript/security', text: 'web常见的攻击方式有哪些？如何防御？'}
                 ]
             },
             {
-                text: 'CSS系列  ( 已完结..)',
-                collapsable: false,
+                text: 'CSS系列',
+                collapsable: true,
                 children: [
                     {link: '/css/box', text: '说说你对盒子模型的理解?'},
                     {link: '/css/selector', text: 'css选择器有哪些？优先级？哪些属性可以继承？'},
@@ -155,8 +155,8 @@ export default defineUserConfig({
                 ]
             },
             {
-                text: 'Webpack系列  ( 已完结..)',
-                collapsable: false,
+                text: 'Webpack系列',
+                collapsable: true,
                 children: [
                     {link: '/webpack/webpack', text: '说说你对webpack的理解？解决了什么问题？'},
                     {link: '/webpack/build_process', text: '说说webpack的构建流程?'},
@@ -171,8 +171,8 @@ export default defineUserConfig({
                 ]
             },
             {
-                text: 'HTTP系列  ( 已完结..)',
-                collapsable: false,
+                text: 'HTTP系列',
+                collapsable: true,
                 children: [
                     {link: '/http/HTTP_HTTPS', text: '什么是HTTP? HTTP 和 HTTPS 的区别?'},
                     {link: '/http/HTTPS', text: '为什么说HTTPS比HTTP安全? HTTPS是如何保证安全的？'},
@@ -191,67 +191,67 @@ export default defineUserConfig({
                 ]
             },
             {
-                text: 'NodeJS系列  ( 已完结..)',
-                collapsable: false,
+                text: 'NodeJS系列',
+                collapsable: true,
                 children: [
-                    {link: '/NodeJS/nodejs', text: '说说你对 Node.js 的理解？优缺点？应用场景？'},
-                    {link: '/NodeJS/global', text: '说说 Node.js 有哪些全局对象？'},
-                    {link: '/NodeJS/process', text: '说说对 Node 中的 process 的理解？有哪些常用方法？'},
-                    {link: '/NodeJS/fs', text: '说说对 Node 中的 fs模块的理解? 有哪些常用方法'},
-                    {link: '/NodeJS/Buffer', text: '说说对 Node 中的 Buffer 的理解？应用场景？'},
-                    {link: '/NodeJS/Stream', text: '说说对 Node 中的 Stream 的理解？应用场景？'},
-                    {link: '/NodeJS/EventEmitter', text: '说说Node中的EventEmitter? 如何实现一个EventEmitter?'},
-                    {link: '/NodeJS/event_loop', text: '说说对 Nodejs 中的事件循环机制理解?'},
-                    {link: '/NodeJS/require_order', text: '说说 Node 文件查找的优先级以及 Require 方法的文件查找策略?'},
-                    {link: '/NodeJS/middleware', text: '说说对中间件概念的理解，如何封装 node 中间件？'},
-                    {link: '/NodeJS/jwt', text: '如何实现jwt鉴权机制？说说你的思路'},
-                    {link: '/NodeJS/file_upload', text: '如何实现文件上传？说说你的思路'},
-                    {link: '/NodeJS/paging', text: '如果让你来设计一个分页功能, 你会怎么设计? 前后端如何交互?'},
-                    {link: '/NodeJS/performance', text: 'Node性能如何进行监控以及优化？'}
+                    {link: '/nodejs/nodejs', text: '说说你对 Node.js 的理解？优缺点？应用场景？'},
+                    {link: '/nodejs/global', text: '说说 Node.js 有哪些全局对象？'},
+                    {link: '/nodejs/process', text: '说说对 Node 中的 process 的理解？有哪些常用方法？'},
+                    {link: '/nodejs/fs', text: '说说对 Node 中的 fs模块的理解? 有哪些常用方法'},
+                    {link: '/nodejs/Buffer', text: '说说对 Node 中的 Buffer 的理解？应用场景？'},
+                    {link: '/nodejs/Stream', text: '说说对 Node 中的 Stream 的理解？应用场景？'},
+                    {link: '/nodejs/EventEmitter', text: '说说Node中的EventEmitter? 如何实现一个EventEmitter?'},
+                    {link: '/nodejs/event_loop', text: '说说对 Nodejs 中的事件循环机制理解?'},
+                    {link: '/nodejs/require_order', text: '说说 Node 文件查找的优先级以及 Require 方法的文件查找策略?'},
+                    {link: '/nodejs/middleware', text: '说说对中间件概念的理解，如何封装 node 中间件？'},
+                    {link: '/nodejs/jwt', text: '如何实现jwt鉴权机制？说说你的思路'},
+                    {link: '/nodejs/file_upload', text: '如何实现文件上传？说说你的思路'},
+                    {link: '/nodejs/paging', text: '如果让你来设计一个分页功能, 你会怎么设计? 前后端如何交互?'},
+                    {link: '/nodejs/performance', text: 'Node性能如何进行监控以及优化？'}
                 ]
             },
             {
-                text: 'React系列  ( 已完结..)',
-                collapsable: false,
+                text: 'React系列',
+                collapsable: true,
                 children: [
-                    {link: '/React/React', text: '说说对React的理解？有哪些特性？'},
-                    {link: '/React/Real_DOM_VirtualDOM', text: '说说 Real DOM和 Virtual DOM 的区别？优缺点？'},
-                    {link: '/React/life_cycle', text: '说说 React 生命周期有哪些不同阶段？每个阶段对应的方法是？'},
-                    {link: '/React/state_props', text: 'state 和 props有什么区别？'},
-                    {link: '/React/super()_super(props)', text: 'super()和super(props)有什么区别？'},
-                    {link: '/React/setState', text: '说说 React中的setState执行机制'},
-                    {link: '/React/SyntheticEvent', text: '说说React的事件机制？'},
-                    {link: '/React/Binding_events', text: 'React事件绑定的方式有哪些？区别？'},
-                    {link: '/React/Building_components', text: 'React构建组件的方式有哪些？区别？'},
-                    {link: '/React/communication', text: 'React中组件之间如何通信？'},
-                    {link: '/React/key', text: 'React中的key有什么作用？'},
-                    {link: '/React/React_refs', text: '说说对React refs 的理解？应用场景？'},
-                    {link: '/React/class_function_component', text: '说说对React中类组件和函数组件的理解？有什么区别？'},
-                    {link: '/React/controlled_Uncontrolled', text: '说说对受控组件和非受控组件的理解？应用场景？'},
-                    {link: '/React/High_order_components', text: '说说对高阶组件的理解？应用场景?'},
-                    {link: '/React/React_Hooks', text: '说说对React Hooks的理解？解决了什么问题？'},
-                    {link: '/React/import_css', text: '说说react中引入css的方式有哪几种？区别？'},
-                    {link: '/React/animation', text: '在react中组件间过渡动画如何实现？'},
-                    {link: '/React/redux', text: '说说你对Redux的理解？其工作原理？'},
-                    {link: '/React/Redux_Middleware', text: '说说对Redux中间件的理解？常用的中间件有哪些？实现原理？'},
-                    {link: '/React/how_to_use_redux', text: '你在React项目中是如何使用Redux的? 项目结构是如何划分的？'},
-                    {link: '/React/React_Router', text: '说说你对React Router的理解？常用的Router组件有哪些？'},
-                    {link: '/React/React_Router_model', text: '说说React Router有几种模式？实现原理？？'},
-                    {link: '/React/immutable', text: '说说你对immutable的理解？如何应用在react项目中？'},
-                    {link: '/React/render', text: '说说React render方法的原理？在什么时候会被触发？'},
-                    {link: '/React/improve_render', text: '说说你是如何提高组件的渲染效率的？在React中如何避免不必要的render？'},
-                    {link: '/React/diff', text: '说说React diff的原理是什么？'},
-                    {link: '/React/Fiber', text: '说说对Fiber架构的理解？解决了什么问题？'},
-                    {link: '/React/JSX_to_DOM', text: '说说React Jsx转换成真实DOM过程？'},
-                    {link: '/React/Improve_performance', text: '说说 React 性能优化的手段有哪些？'},
-                    {link: '/React/capture_error', text: '说说你在React项目是如何捕获错误的？'},
-                    {link: '/React/server_side_rendering', text: '说说React服务端渲染怎么做？原理是什么？'},
-                    {link: '/React/summary', text: '说说你在使用React 过程中遇到的常见问题？如何解决?'}
+                    {link: '/react/React', text: '说说对React的理解？有哪些特性？'},
+                    {link: '/react/Real_DOM_VirtualDOM', text: '说说 Real DOM和 Virtual DOM 的区别？优缺点？'},
+                    {link: '/react/life_cycle', text: '说说 React 生命周期有哪些不同阶段？每个阶段对应的方法是？'},
+                    {link: '/react/state_props', text: 'state 和 props有什么区别？'},
+                    {link: '/react/super()_super(props)', text: 'super()和super(props)有什么区别？'},
+                    {link: '/react/setState', text: '说说 React中的setState执行机制'},
+                    {link: '/react/SyntheticEvent', text: '说说React的事件机制？'},
+                    {link: '/react/Binding_events', text: 'React事件绑定的方式有哪些？区别？'},
+                    {link: '/react/Building_components', text: 'React构建组件的方式有哪些？区别？'},
+                    {link: '/react/communication', text: 'React中组件之间如何通信？'},
+                    {link: '/react/key', text: 'React中的key有什么作用？'},
+                    {link: '/react/React_refs', text: '说说对React refs 的理解？应用场景？'},
+                    {link: '/react/class_function_component', text: '说说对React中类组件和函数组件的理解？有什么区别？'},
+                    {link: '/react/controlled_Uncontrolled', text: '说说对受控组件和非受控组件的理解？应用场景？'},
+                    {link: '/react/High_order_components', text: '说说对高阶组件的理解？应用场景?'},
+                    {link: '/react/React_Hooks', text: '说说对React Hooks的理解？解决了什么问题？'},
+                    {link: '/react/import_css', text: '说说react中引入css的方式有哪几种？区别？'},
+                    {link: '/react/animation', text: '在react中组件间过渡动画如何实现？'},
+                    {link: '/react/redux', text: '说说你对Redux的理解？其工作原理？'},
+                    {link: '/react/Redux_Middleware', text: '说说对Redux中间件的理解？常用的中间件有哪些？实现原理？'},
+                    {link: '/react/how_to_use_redux', text: '你在React项目中是如何使用Redux的? 项目结构是如何划分的？'},
+                    {link: '/react/React_Router', text: '说说你对React Router的理解？常用的Router组件有哪些？'},
+                    {link: '/react/React_Router_model', text: '说说React Router有几种模式？实现原理？？'},
+                    {link: '/react/immutable', text: '说说你对immutable的理解？如何应用在react项目中？'},
+                    {link: '/react/render', text: '说说React render方法的原理？在什么时候会被触发？'},
+                    {link: '/react/improve_render', text: '说说你是如何提高组件的渲染效率的？在React中如何避免不必要的render？'},
+                    {link: '/react/diff', text: '说说React diff的原理是什么？'},
+                    {link: '/react/Fiber', text: '说说对Fiber架构的理解？解决了什么问题？'},
+                    {link: '/react/JSX_to_DOM', text: '说说React Jsx转换成真实DOM过程？'},
+                    {link: '/react/Improve_performance', text: '说说 React 性能优化的手段有哪些？'},
+                    {link: '/react/capture_error', text: '说说你在React项目是如何捕获错误的？'},
+                    {link: '/react/server_side_rendering', text: '说说React服务端渲染怎么做？原理是什么？'},
+                    {link: '/react/summary', text: '说说你在使用React 过程中遇到的常见问题？如何解决?'}
                 ]
             },
             {
-                text: '版本控制系列  ( 已完结..)',
-                collapsable: false,
+                text: '版本控制系列',
+                collapsable: true,
                 children: [
                     {link: '/git/versionControl', text: '说说你对版本管理的理解？常用的版本管理工具有哪些？'},
                     {link: '/git/git', text: '说说你对Git的理解？'},
@@ -266,8 +266,8 @@ export default defineUserConfig({
                 ]
             },
             {
-                text: '操作系统系列  ( 已完结..)',
-                collapsable: false,
+                text: '操作系统系列',
+                collapsable: true,
                 children: [
                     {link: '/linux/linux', text: '说说你对操作系统的理解？核心概念有哪些？'},
                     {link: '/linux/thread_process', text: '说说什么是进程？什么是线程？区别？'},
@@ -279,8 +279,8 @@ export default defineUserConfig({
                 ]
             },
             {
-                text: 'TypeScript 系列  ( 已完结..)',
-                collapsable: false,
+                text: 'TypeScript 系列',
+                collapsable: true,
                 children: [
                     {link: '/typescript/typescript_javascript', text: '说说你对 TypeScript 的理解？与 JavaScript 的区别？'},
                     {link: '/typescript/data_type', text: '说说 typescript 的数据类型有哪些？'},
@@ -297,8 +297,8 @@ export default defineUserConfig({
                 ]
             },
             {
-                text: '算法与数据结构系列  ( 已完结..)',
-                collapsable: false,
+                text: '算法与数据结构系列',
+                collapsable: true,
                 children: [
                     {link: '/algorithm/algorithm', text: '说说你对算法的理解？应用场景？'},
                     {link: '/algorithm/time_space', text: '说说你对算法中时间复杂度，空间复杂度的理解？如何计算？'},
@@ -321,8 +321,8 @@ export default defineUserConfig({
                 ]
             },
             {
-                text: '小程序系列  ( 已完结..)',
-                collapsable: false,
+                text: '小程序系列',
+                collapsable: true,
                 children: [
                     {link: '/applet/applet', text: '说说你对微信小程序的理解？优缺点？'},
                     {link: '/applet/lifecycle', text: '说说微信小程序的生命周期函数有哪些？'},
@@ -336,7 +336,7 @@ export default defineUserConfig({
             },
             {
                 text: '设计模式系列  ( 进行中..)',
-                collapsable: false,
+                collapsable: true,
                 children: [
                     {link: '/design/design', text: '说说对设计模式的理解？常见的设计模式有哪些？'},
                     {link: '/design/singletonPattern', text: '说说你对单例模式的理解？如何实现？'},
