@@ -7,7 +7,7 @@ export default defineUserConfig({
     description: 'web前端知识,js,vue,react,面试题',
     base: '/web-knowledge/',
     head: [
-        ['link', {rel: 'icon', href: 'http://8.133.162.30/favicon.svg'}],
+        ['link', {rel: 'icon', href: 'http://8.133.162.30/favicon.ico'}],
         ['meta', {name: 'keywords', content: 'web前端知识,js,vue,react,面试题'}]
     ],
     markdown: {
