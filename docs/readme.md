@@ -1,7 +1,7 @@
 <h1 align="center">web在线</h1>
 
 <p align="center">
-<img width="300px"  style="width:435px;" src="http://8.133.162.30/asi.png"/>
+<img width="300px"  style="width:435px;" src="http://8.133.162.30/static/asi.png"/>
 </p>
 <div align="center">
   <a href="https://github.com/lipan16/web-knowledge/issues"><img src="https://img.shields.io/github/languages/top/badges/shields.svg?
